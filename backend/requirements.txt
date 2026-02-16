@@ -1,0 +1,29 @@
+# FastAPI
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Pydantic
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# LLM (Cerebras via OpenAI-compatible API)
+openai>=1.40.0
+
+# PDF Parsing
+PyMuPDF==1.24.10
+pdfplumber==0.11.4
+
+# HTTP
+httpx==0.27.2
+aiofiles==24.1.0
+
+# Database
+sqlalchemy[asyncio]==2.0.35
+aiosqlite==0.20.0
+
+# Vector Store (install later when needed — requires C++ build tools)
+# chromadb==0.5.5
+
+# Utils
+python-dotenv==1.0.1
